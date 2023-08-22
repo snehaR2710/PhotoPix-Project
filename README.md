@@ -1,1 +1,1 @@
-# photopix-project
+# PhotoPix-Project

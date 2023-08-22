@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Studio</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"> <!--name of logo is photopix right nav-->
+                Photo<span>Pi</span>X
+            </div>
+            <div class="menu"> <!--starting of nav in middle-->
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Gallery</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="icons"> <!--left nav-->
+                <i class="fa fa-search"></i>
+                <a href="#">Log in</a>
+            </div>
+        </nav>
+        <section class="h-text">
+            <i class="fa fa-camera"  id="camera"></i>
+            <h1 data-aos="fade-up"> Capturing the moments that captivate your heart.</h1>
+            <input type="text" name="" placeholder="Search here....">
+            <button><i class="fa fa-search"></i></button>
+        </section>
+    </header>
+    <section class="filter-gallery">
+        <div class="portfolio-menu">
+            <ul>
+                <li class="active" data-filter="all">All</li>
+                <li data-filter=".nature">Nature</li>
+                <li data-filter=".faishon">Faishon</li>
+                <li data-filter=".wedding">Wedding</li>
+            </ul>
+        </div>
+        <div class="portfolio-items">
+            <div class="item nature" data-aos="flip-left" data-aos-offset="100" data-aos-delay="100">
+                 <img src="photopix/p1.jpg" width="100" height="100">
+            </div>
+            <div class="item faishon"  data-aos="flip-left" data-aos-offset="100" data-aos-delay="200">
+                <img src="photopix/p2.jpg" width="100" height="100">
+           </div>
+           <div class="item wedding"  data-aos="flip-left" data-aos-offset="100" data-aos-delay="300">
+              <img src="photopix/p3.jpg" width="100" height="100">
+           </div>
+           <div class="item nature"  data-aos="zoom-in" data-aos-offset="100" data-aos-delay="100">
+               <img src="photopix/p4.jpg" width="100" height="100">
+           </div>
+           <div class="item faishon"  data-aos="zoom-in" data-aos-offset="100" data-aos-delay="200">
+              <img src="photopix/p5.jpg" width="100" height="100">
+           </div>
+           <div class="item wedding"  data-aos="zoom-in" data-aos-offset="100" data-aos-delay="300">
+              <img src="photopix/p6.jpg" width="100" height="100">
+           </div>
+           <div class="item nature"  data-aos="zoom-in-up" data-aos-offset="100" data-aos-delay="100">
+              <img src="photopix/p7.jpg" width="100" height="100">
+           </div>
+           <div class="item faishon"  data-aos="zoom-in-up" data-aos-offset="100" data-aos-delay="200">
+              <img src="photopix/p8.jpg" width="100" height="100">
+           </div>
+           <div class="item wedding"  data-aos="zoom-in-up" data-aos-offset="100" data-aos-delay="300">
+              <img src="photopix/p9.jpg" width="100" height="100">
+           </div>
+        </div>
+    </section>
+    <section class="member">
+        <div class="member-info"  data-aos="zoom-in-up" data-aos-offset="100" data-aos-delay="100">
+             <h1>Our <span>Informations</span></h1>
+             <p>What our member says</p>
+        </div>
+        <div class="member-card"  data-aos="zoom-in-down" data-aos-offset="100" data-aos-delay="200">
+              <img src="photopix/member.png">
+              <p>
+                From Rajasthan, doing gym is good for healthy life. it helps our body to fit. it release stress from our mind. From Rajasthan,doing gym is good for healthy life. it helps our body to fit. it stress from our mind.
+              </p>
+              <h2> Maria Sharapova</h2>
+                   <img src="photopix/icon1.png" width="100">
+                   <img src="photopix/icon2.png" width="100">
+                   <img src="photopix/icon3.png" width="100">
+                   <img src="photopix/icon4.png" width="100">
+            </div>
+            <div class="m-images"  data-aos="zoom-in" data-aos-offset="100" data-aos-delay="300">
+                <img src="photopix/s1.jpg">
+                <img src="photopix/s2.jpg">
+                <img src="photopix/s3.jpg">
+                <img src="photopix/s4.jpg">
+                <img src="photopix/s5.jpg">
+                <img src="photopix/s6.jpg">
+
+            </div>
+    </section>
+    <footer>
+        <div class="newslatter">
+            <div data-aos="fade-up" data-aos-offset="200">
+                 <h2>Subscribe our newslatter</h2>
+                 <p>We're a team of non-cynics who truly care for our work.</p>
+            </div>
+            <div class="ntext"  data-aos="fade-up-right" data-aos-offset="200">
+              <label>
+                <input type="text" name="" placeholder="Enter your Email">
+                <button>Subscribe</button>
+              </label>  
+            </div>
+        </div>
+        <div class="f-contact"  data-aos="zoom-in-up" data-aos-offset="200">
+            <div>
+                <h1>Information</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur elite. Nihil sit dicta.</p>
+                <i class="fa fa-whatsapp"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-telegram"></i>
+                <i class="fa fa-twitter"></i>
+            </div>
+            <div>
+                <h1>Useful links</h1>
+                <p>About us</p>
+                <p>Blog posts</p>
+                <p>Pricing plans</p>
+            </div>
+            <div>
+                <h1>Details</h1>
+                <p>Photographers</p>
+                <p>Gallery</p>
+                <p>About</p>
+            </div>
+            <div>
+                <h1>Helps & Support</h1>
+                <p>Privacy</p>
+                <p>Term & Conditions</p>
+                <p>Technical support</p>
+                <p>Customer care</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script type="text/javascript">
+        $('.portfolio-items').isotope({
+      // options
+      itemSelector: '.item',
+      layoutMode: 'fitRows'
+     });
+           $('.portfolio-menu ul li').click(function(){
+           $('.portfolio-menu ul li').removeClass('active');
+           $(this).addClass('active');
+
+              var selector = $(this).attr('data-filter');
+            $('.portfolio-items').isotope({ 
+                filter:selector
+            });
+            return false;   
+
+           });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
